@@ -1,0 +1,59 @@
+/* Your local CSS File */
+@font-face {
+    font-family: 'Varela Round';
+    src: url(../static/fonts/VarelaRound-Regular.ttf);
+}
+
+body {
+    font-family: 'Varela Round', serif;
+    background-color: #1e1e2e;
+  }
+  
+
+.jumbotron-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 15px;
+}
+
+.jumbotron {
+    background: #27293d;
+    border: 0;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,.1);
+    color: white;
+    margin-top: 30px;
+}
+
+.card {
+    background: #27293d;
+    border: 0;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,.1);
+}
+
+.card-body {
+
+    color: white;
+
+}
+
+.card-header {
+
+    background-color: #c852e5;
+
+}
+
+.text-primary {
+
+    color: white !important;
+}
+
+.btn-primary {
+    background-color: #c852e5;
+    border: 2px solid chocolate;
+}

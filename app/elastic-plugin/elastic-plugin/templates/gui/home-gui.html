@@ -1,0 +1,74 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static '/bootstrap/bootstrap.min.css' %}">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'custom.css' %}" />
+
+    <title>Index of elastic-plugin</title>
+</head>
+
+<body>
+
+    <div class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h1 class="display-4">Elastic Plugin App</h1>
+            <p class="lead">This is a collection of utilities for elasticsearch. Explore below!</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="card shadow mb-4 text-center">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">API Endpoint</h6>
+                    </div>
+                    <div class="card-body">
+                        This is the API endpoint that allow you to connect with the back end.
+                    </div>
+                    <a class="btn btn-primary" href="#" target="_blank">Go to API</a>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card shadow mb-4 text-center">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Dashboards</h6>
+                    </div>
+                    <div class="card-body">
+                        From the button below you can access to all your graphics and dashboards.
+                    </div>
+                    <a class="btn btn-primary" href="#" target="_blank">Go to dashboards</a>
+
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card shadow mb-4 text-center">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">MailAlert app</h6>
+                    </div>
+                    <div class="card-body">
+                        Access to MailAlert app and start create your watchers on Elastic data.
+                    </div>
+                    <a class="btn btn-primary" href="/admin" target="_blank">Go to MailAlert</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="{% static '/bootstrap/jquery-3.5.1.slim.min.js' %}"></script>
+    <script src="{% static '/bootstrap/popper.min.js' %}"></script>
+    <script src="{% static '/bootstrap/bootstrap.min.js' %}"></script>
+</body>
+
+</html>
